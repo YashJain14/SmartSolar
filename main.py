@@ -35,4 +35,4 @@ while True:
       roomintensity = sourceintensity + artificialintensity
     
     if (userchoice == 2):
-      print("Room light intensity: {a}; Artificial light intensity: {b}; External light intensity: {c}; Modulator: {d}".format(a = roomintensity, b = artificialintensity, c = sourceintensity, d = modulator))
+      print("Room light intensity: {a}\nArtificial light intensity: {b}\nExternal light intensity: {c}\nModulator: {d}".format(a = roomintensity, b = artificialintensity, c = sourceintensity, d = modulator))
